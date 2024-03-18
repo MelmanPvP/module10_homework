@@ -1,0 +1,87 @@
+.body__chat{
+    width: 500px;
+    height: 700px;
+    background: cadetblue;
+    margin-right: auto;
+    margin-left:auto;
+    border: 2px solid blue;
+}
+.body__input{
+    margin: 5px;
+    height: 20px;
+    font-family: "Arial Black", serif;
+    /*position: relative;*/
+    border: 2px solid deepskyblue;
+}
+.body__submit{
+    /*position: absolute;*/
+    /*top:15px;*/
+    height: 25px;
+    background: deepskyblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.body__btn_geo{
+    height: 25px;
+    background: deepskyblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.body__chat_dialog {
+    background: white;
+    width: 450px;
+    height: 650px;
+    margin: auto;
+    border: 2px solid deepskyblue;
+}
+.body__chat_dialog_message {
+    max-width: 100px;
+    height:fit-content;
+    flex-wrap: wrap;
+    border: 2px solid deepskyblue;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.body__chat_dialog_echo {
+    max-width: 100px;
+    height:fit-content;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    position: relative;
+    /*right: 20px;*/
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.body__start{
+    height: 25px;
+    background: deepskyblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.body__chat_dialog_error {
+    width: 100px;
+    height:20px;
+    border: 2px solid red;
+    color: darkred;
+    /*margin-right: 1000px;*/
+    margin-top: 15px;
+}
+.body__chat_dialog_echo_geo {
+    width: 130px;
+    height:35px;
+    border: 2px solid blue;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.body__chat_dialog_message_geo {
+    width: 150px;
+    height:35px;
+    border: 2px solid deepskyblue;
+    margin-left: 300px;
+    margin-top: 15px;
+}

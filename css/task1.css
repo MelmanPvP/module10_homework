@@ -1,0 +1,10 @@
+svg {
+    width: 15px;
+    height: 10px;
+}
+.body__icon1{
+    display: block;
+}
+.body__icon2{
+    display: none;
+}
